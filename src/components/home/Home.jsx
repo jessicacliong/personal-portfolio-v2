@@ -3,7 +3,7 @@ import profileImg from "../../assets/profile-img.png";
 import shapeOne from "../../assets/shape-1.png";
 import shapeTwo from "../../assets/shape-2.png";
 
-import { FaTwitter, FaGithubAlt, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import './home.css';
 
 const Home = () => {
@@ -61,22 +61,18 @@ const Home = () => {
                     </p>
                     
                     <div className="home__socials">
-                         <a href="" className="home__social-link">
+                         <a href="https://www.linkedin.com/in/jessica-liong/" className="home__social-link">
                               <FaLinkedin />
                          </a>
 
-                         <a href="" className="home__social-link">
+                         <a href="https://github.com/jessicacliong" className="home__social-link">
                               <FaGithubAlt />
-                         </a>
-
-                         <a href="" className="home__social-link">
-                              <FaTwitter />
                          </a>
                     </div>
                
                     <div className="home__btns">
                          <a href="" className="btn text-cs">
-                              Download CV
+                              View Resume
                          </a>
                          <a href="" className="hero__link text-cs">
                               My Skills
