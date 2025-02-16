@@ -11,6 +11,7 @@ import Testimonial3 from './assets/testimonial3.jpg';
 import Testimonial4 from './assets/testimonial4.jpg';
 import Testimonial5 from './assets/testimonial5.jpg';
 
+
 export const links = [
   {
     name: 'Home',
@@ -51,91 +52,133 @@ export const links = [
 ];
 
 export const projects = [
-     {
+      {
        id: 1,
        name: 'Full Stack Application',
        title: 'Web Design & Logo',
        description:
          'Web designers craft the overall vision & plan for a website layout. Professional logo development: Business, Company, or Personal.',
-     },
-     {
+      },
+      {
        id: 2,
        name: 'RESTful API',
        title: ' iOS & Android ',
        description:
          'Design Software applications to run on mobile devices. Modern and mobile-ready application that will help you reach all of your marketing.',
-     },
-     {
+      },
+      {
        id: 3,
        name: 'Terminal Application',
        title: ' Unity & Unreal Engine ',
        description:
-         ' Creating games & describes the design, development and release of a game. Developing unique mobile android and ios games. ',
-     },
-     {
+         'Creating games & describes the design, development and release of a game. Developing unique mobile android and ios games. ',
+      },
+      {
        id: 4,
        name: 'Static Website',
        title: ' Google Ads ',
        description:
-         ' Advertising services include: Google search result pages, gmails, YouTube and other websites participated in Google Ads program. ',
-     },
-     {
+         'Advertising services include: Google search result pages, gmails, YouTube and other websites participated in Google Ads program. ',
+      },
+      {
        id: 5,
        name: 'Hackathon Project',
        title: ' Sound Track ',
        description:
          'Music copying, writing, creating, transcription and composition services.',
-     },
+      },
 ];
    
    export const skills = [
-     {
-       id: 1,
-       name: 'PHP',
-       percentage: 85,
-       description:
-         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-     },
+    {
+      id: 1,
+      name: 'HTML',
+      icon: "ri:html5-fill"
+    },
    
-     {
-       id: 2,
-       name: 'JavaScript',
-       percentage: 75,
-       description:
-         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-     },
+    {
+      id: 2,
+      name: 'CSS3',
+      icon: "ion:logo-css3" 
+    },
    
-     {
-       id: 3,
-       name: 'WordPress',
-       percentage: 90,
-       description:
-         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-     },
+    {
+      id: 3,
+      name: 'Python',
+      icon: "fa-brands:python"
+    },
+
+    {
+      id: 4,
+      name: 'Flask',
+      icon: "simple-icons:flask"
+    },
    
-     {
-       id: 4,
-       name: 'Python',
-       percentage: 75,
-       description:
-         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-     },
-   
-     {
-       id: 5,
-       name: 'React',
-       percentage: 70,
-       description:
-         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-     },
-   
-     {
-       id: 6,
-       name: 'Adobe XD',
-       percentage: 80,
-       description:
-         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-     },
+    {
+      id: 5,
+      name: 'PostgreSQL',
+      icon: "devicon-plain:postgresql"
+    },
+
+    {
+      id: 6,
+      name: 'JavaScript',
+      icon: "teenyicons:javascript-outline" 
+    },
+
+    {
+      id: 7,
+      name: 'React',
+      icon: "teenyicons:react-outline"
+    },
+
+    {
+      id: 8,
+      name: 'Node',
+      icon: "fa-brands:node-js"
+    },
+
+    {
+      id: 9,
+      name: 'Express',
+      icon: "simple-icons:express"
+    },
+
+    {
+      id: 10,
+      name: 'MongoDB',
+      icon: "simple-icons:mongodb"
+    },
+
+    {
+      id: 11,
+      name: 'Jest',
+      icon: "cib:jest"
+    },
+
+    {
+      id: 12,
+      name: 'PyTest',
+      icon: "file-icons:pytest"
+    },
+
+    {
+      id: 13,
+      name: 'VSCode',
+      icon: "file-icons:vscode"
+    },
+
+    {
+      id: 14,
+      name: 'Trello',
+      icon: "fa-brands:trello"
+    },
+    
+    {
+      id: 15,
+      name: 'Figma',
+      icon: "fa6-brands:figma"
+    }
 ];
    
    export const projects_tutorial = [
@@ -190,7 +233,7 @@ export const projects = [
 ];
    
    export const cv = [
-     {
+      {
        id: 1,
        title: 'CoderHouse Courses',
        subtitle: 'Backend Programming',
@@ -198,9 +241,9 @@ export const projects = [
        description:
          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
        category: 'education',
-     },
+      },
    
-     {
+      {
        id: 2,
        title: 'Lviv National Academy of Arts',
        subtitle: 'Faculty of Design',
@@ -208,9 +251,9 @@ export const projects = [
        description:
          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
        category: 'education',
-     },
+      },
    
-     {
+      {
        id: 3,
        title: 'IT Future',
        subtitle: 'High School',
@@ -218,9 +261,9 @@ export const projects = [
        description:
          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
        category: 'education',
-     },
+      },
    
-     {
+      {
        id: 4,
        title: 'UI Head & Manager',
        subtitle: 'Soft Tech Inc.',
@@ -228,9 +271,9 @@ export const projects = [
        description:
          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
        category: 'experience',
-     },
+      },
    
-     {
+      {
        id: 5,
        title: 'UI / UX Specialist',
        subtitle: 'Kana Design Studio',
@@ -238,9 +281,9 @@ export const projects = [
        description:
          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
        category: 'experience',
-     },
+      },
    
-     {
+      {
        id: 6,
        title: 'Plugins Developer',
        subtitle: 'Fiverr.com',
@@ -248,8 +291,8 @@ export const projects = [
        description:
          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
        category: 'experience',
-     },
-   ];
+      },
+];
    
    export const testimonials = [
      {
