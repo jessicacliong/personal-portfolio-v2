@@ -92,7 +92,6 @@
      width: 100%;
      max-width: 570px;
      margin-top: 20px;
-
 }
 
 .home__banner {
@@ -138,6 +137,13 @@
      right: 6%;
 }
 
+.home__data {
+     display: flex;
+     justify-content: center;
+     font-weight: 700;
+     font-size: var(--normal-font-size)
+ } 
+
 .home__data .text-lg,
 .home__data .text-sm {
      width: 50%;
@@ -145,14 +151,16 @@
      font-weight: 700;
 }
 
-.home__data .text-lg {
+.home__data .text-left {
+     color: var(--title-color);
      text-align: center;
-     font-size: 37px;
+     margin-right: 5px;
 }
 
-.home__data .text-sm {
-     font-size: 13px;
-     line-height: 1.5em;
+.home__data .text-right {
+     color: var(--primary-color);
+     text-align: center;
+     margin-left: 5px; 
 }
 
 .home__data .text-lg b,

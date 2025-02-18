@@ -29,30 +29,30 @@ const Home = () => {
                               </div>
 
                               <p className="home__data home__data-one">
-                                   {/* <span className="text-lg">
-                                        12 <b>+</b>
+                                   <span className="text-left text-cs">
+                                        Constant
                                    </span>
 
-                                   <span className="text-sm text-cs">
-                                        Years of <span>Experience</span>
-                                   </span> */}
+                                   <span className="text-right text-cs">
+                                        Learner
+                                   </span>
                               </p>
 
 
                               <p className="home__data home__data-two">
-                              {/* <span className="text-lg">
-                                        330
+                                   <span className="text-left text-cs">
+                                        Perseverant
                                    </span>
                                    
-                                   <span className="text-sm text-cs">
-                                        Completed <span>Projects</span>
-                                   </span> */}
+                                   <span className="text-right text-cs">
+                                        Spirit
+                                   </span>
                               </p>
 
 
-                              {/* <img src={shapeOne} alt="" className="shape shape__1" />
+                              <img src={shapeOne} alt="" className="shape shape__1" />
                               <img src={shapeTwo} alt="" className="shape shape__2" />
-                              <img src={shapeTwo} alt="" className="shape shape__3" /> */}
+                              <img src={shapeTwo} alt="" className="shape shape__3" />
                          </div>
 
                          <p className='home__text'>
