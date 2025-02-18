@@ -1,6 +1,7 @@
 .home {
      background-image: var(--first-gradient);
      padding-bottom: 180px;
+     /* add styling for gradient transition from hero to first section */
 }
 
 .home__wrapper {
