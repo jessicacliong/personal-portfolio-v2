@@ -292,6 +292,58 @@ export const projects = [
        },
 
 ];
+
+    export const blogs = [
+      {
+        id: 1,
+        category: 'Branding',
+        date: '3rd March 2023',
+        title: 'The Beginning of my Tech Journey',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      },
+      {
+        id: 2,
+        category: 'UI UX Design',
+        date: '5th June 2023', 
+        title: 'Reflections on the 1st Term',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      },
+      {
+        id: 3,
+        category: 'Development',
+        date: '30th Dec 2023',
+        title: 'Finishing my Diploma of IT',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      },
+      {
+        id: 4,
+        category: 'Development',
+        date: '3rd March 2024',
+        title: 'Job Hunting',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      },
+      {
+        id: 5,
+        category: 'Development',
+        date: '17th July 2024',
+        title: 'First Tech Internship',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      },
+      {
+        id: 6,
+        category: 'Development',
+        date: '17th July 2024',
+        title: 'First Tech Internship',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      },
+
+];
    
    export const testimonials = [
      {

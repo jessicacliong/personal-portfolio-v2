@@ -277,6 +277,11 @@ img {
   border-radius: 18px;
 }
 
+.card-two {
+  padding: 30px 35px;
+  border-radius: 18px
+}
+
 .link {
   display: inline-flex;
   align-items: center;
