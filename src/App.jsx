@@ -7,6 +7,7 @@ import Header from './components/header/Header';
 import Resume from './components/resume/Resume';
 // import Blog from './components/blog/Blog';
 import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
       <Resume />
       {/* <Blog /> */}
       <Contact />
+      <Footer />
     </main>
   )
 }
