@@ -10,7 +10,7 @@ const Resume = () => {
                     <p className="section__subtitle">
                          My <span>Story</span>
                     </p>
-                    <p className="section_description">
+                    <p className="section__description">
                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                     </p>
 

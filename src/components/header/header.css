@@ -42,7 +42,6 @@
     display: flex;
     background-color: var(--bg-color-alt);
     transition: all 0.6s var(--transition);
-    overflow: hidden;
     z-index: 10;
 }
 

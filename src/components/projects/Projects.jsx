@@ -21,12 +21,13 @@ const Projects = () => {
                <p className="section__subtitle">
                     My <span>Work</span>
                </p>
-               <p className="section_description">
+               <p className="section__description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                </p>
                
                <Swiper 
+                    spaceBetween = {30}
                     pagination={{
                          clickable: true,
                     }}
