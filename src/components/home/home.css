@@ -85,13 +85,28 @@
      background-color: var(--border-color);
 }
 
+.hero__link {
+     background: linear-gradient(currentColor 0 0) 
+     bottom left/
+     var(--underline-width, 0%) 0.3em
+     no-repeat;
+     color: rgb(181,114,129);
+     text-decoration: none;
+     transition: background-size 0.5s;
+     position: relative;
+}
+ 
+.hero__link:hover {
+     --underline-width: 100%;
+}
+ 
 .home__img-wrapper {
      position: absolute;
      top: 0;
      right: 30px;
      transform: translateY(-9%);
      width: 100%;
-     max-width: 570px;
+     max-width: 580px;
      margin-top: 20px;
 }
 
