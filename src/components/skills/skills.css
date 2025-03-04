@@ -1,11 +1,13 @@
 .skills {
      background-image: var(--third-gradient);
+     position: relative;
 }
 
 .skills__container {
      grid-template-columns: repeat(3, 1fr);
      row-gap: 70px;
      column-gap: 40px;
+     position: relative;
 }
 
 .skills__titles {

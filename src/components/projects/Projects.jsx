@@ -64,6 +64,10 @@ const Projects = () => {
                          )
                     })}
                </Swiper>
+
+               <div className="section__bg-wrapper">
+                    <span className="bg__title">Projects</span>
+               </div>
           </section>
      )
 }

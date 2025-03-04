@@ -142,6 +142,10 @@ const Contact = () => {
                          </div>
                     </form>
                </div>
+
+               <div className="section__bg-wrapper">
+                    <span className="bg__title">Contact Me</span>
+               </div>
           </section>
      )
 }
