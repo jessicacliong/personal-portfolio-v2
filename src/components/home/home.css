@@ -128,8 +128,8 @@
      position: absolute;
      filter: grayscale(30%);
      top: 5%;
-     width: 500px;
-     height: 500px;
+     width: 530px;
+     height: 550px;
      border-radius: 50%;
      border: solid 6px var(--bg-color);
      object-fit: cover;
@@ -203,10 +203,10 @@
 
 .shape__2 {
      bottom: 8%;
-     left: -16%;
+     left: -10%;
 }
 
 .shape__3 {
      bottom: 0%;
-     right: -2%;
+     right: -6%;
 }
