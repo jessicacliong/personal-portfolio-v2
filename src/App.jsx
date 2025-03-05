@@ -7,6 +7,7 @@ import Resume from './components/resume/Resume';
 // import Blog from './components/blog/Blog';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
+import About from './components/about/About';
 
 function App() {
   
@@ -14,6 +15,7 @@ function App() {
     <main className='main'>
       <Header />
       <Home />
+      <About />
       <Projects />
       <Skills />
       <Resume />
