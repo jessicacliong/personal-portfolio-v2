@@ -48,14 +48,15 @@ const Projects = () => {
                     modules={[Pagination]}
                     className="projects__container container mySwiper"
                >
-                    {projects.map(({ name, title, description }, index) => {
+                    {projects.map(({ name, title, link, tech_stack, description }, index) => {
                          return (
                               <SwiperSlide className="projects__item card card-one">
                                    <span className="projects__subtitle text-cs">{name}</span>
+                                   <span className='projects__techstack'>{tech_stack}</span>
                                    <h3 className="projects__title">{title}</h3>
                                    <p className="projects__description">{description}</p>
-                                   <a href="" className="link">
-                                        See More
+                                   <a href={link} className="link">
+                                        Project Link
                                         <FaArrowRight className='link__icon'></FaArrowRight>
                                    </a>
 
