@@ -2,7 +2,6 @@ import React from 'react';
 import profileImg from "../../assets/profile-img.jpg";
 import shapeOne from "../../assets/shape-1.png";
 import shapeTwo from "../../assets/shape-2.png";
-
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import './home.css';
 

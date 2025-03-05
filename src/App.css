@@ -172,8 +172,8 @@ img {
 }
 
 .container {
-  /* change max-width to decide how big is the container */
-  max-width: 1500px; 
+  /* change max-width to decide how big the container */
+  max-width: 1300px; 
   padding-inline: 12px !important;
   margin-inline: auto;
 }
@@ -204,7 +204,7 @@ img {
   padding-inline: 40px;
   border-radius: 56px;
   box-shadow: var(--shadow);
-  /* to fix the issue of text does not appear on hovering */
+  /* to fix the issue of text not appearing on hovering */
   z-index: 1; 
 }
 
