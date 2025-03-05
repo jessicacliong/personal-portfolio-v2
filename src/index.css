@@ -8,10 +8,6 @@
         transform: translateY(-6%);
     }
 
-    .home__profile {
-        height: 560px;
-    }
-
     .home__data {
         transform: scale(0.9);
     }
@@ -60,10 +56,6 @@
     .home__socials,
     .home__btns {
         justify-content: center;
-    }
-
-    .home__profile {
-        height: 555px;
     }
 
     .footer__copyright:nth-child(2){
@@ -178,7 +170,8 @@
     }
 
     .home__profile {
-        height: 370px;
+        width: 350px;
+        height: 380px;
     }
 
     .home__data {
@@ -196,7 +189,6 @@
     .shape__1 {
         width: 115px;
         height: 115px;
-        right: 9%;
     }
 
     .shape__2,
@@ -207,12 +199,12 @@
 
     .shape__2 {
         bottom: 10%;
-        left: -10%;
+        left: -8%;
     }
 
     .shape__3 {
         bottom: 4%;
-        right: -1%;
+        right: -6%;
     }
 
     .section__description {
@@ -236,19 +228,15 @@
     }
 
     .container {
-        max-width: 480px;
+        max-width: 450px;
     }
 
     .home__img-wrapper {
         margin-top: 100px;
     }
 
-    .home__profile {
-        height: 368px;
-    }
-
     .section__description {
-        padding-inline: 10%;
+        padding-inline: 20%;
     }
 
     .resume__header {
@@ -266,19 +254,13 @@
     }
 }
 
-@media screen and (max-width: 400px) {
-    .home__profile {
-        height: 325px;
-    }
-}
-
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 480px) {
     .nav__data {
         padding: 80px 0 0 90px;
     }
 
     .container {
-        max-width: 400px;
+        max-width: 300px;
     }
 
     .home__img-wrapper {
@@ -286,7 +268,8 @@
     }
     
     .home__profile {
-        height: 310px;
+        width: 250px;
+        height: 260px;
     }
 
     .home__data {
@@ -304,7 +287,7 @@
     }
 
     .section__description {
-        padding-inline: 8%;
+        padding-inline: 20%;
     }
 
     .card-one {
@@ -325,11 +308,19 @@
 
     .resume__content {
         padding-inline: 18px 20px;
+    }
 
 }
 
 @media screen and (max-width: 320px) {
-    .home__profile {
-        height: 270px;
+
+    .container {
+        max-width: 260px;
     }
+
+    .home__profile {
+        width: 210px;
+        height: 230px;
+    }
+
 }
