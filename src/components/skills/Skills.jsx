@@ -11,7 +11,7 @@ const Skills = () => {
                     My <span>Skills</span>
                </p>
                <p className="section__description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                   The technologies and tools I have learnt and used in projects.
                </p>
 
                <div className="skills__container container grid">

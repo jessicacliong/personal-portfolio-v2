@@ -3,6 +3,7 @@ import profileImg from "../../assets/profile-img.jpg";
 import shapeOne from "../../assets/shape-1.png";
 import shapeTwo from "../../assets/shape-2.png";
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import CV from "../../assets/Jessica_Liong_CV.pdf";
 import './home.css';
 
 const Home = () => {
@@ -19,7 +20,7 @@ const Home = () => {
                          </h1>
 
                          <p className='home__job'>
-                              <span className='text-cs'>I Am a</span> <b>Junior Web Developer</b>
+                              <span className='text-cs'>I Am A</span> <b>Junior Web Developer</b>
                          </p>
 
                          <div className="home__img-wrapper">
@@ -29,7 +30,7 @@ const Home = () => {
 
                               <p className="home__data home__data-one">
                                    <span className="text-left text-cs">
-                                        Constant
+                                        Perpetual
                                    </span>
 
                                    <span className="text-right text-cs">
@@ -40,7 +41,7 @@ const Home = () => {
 
                               <p className="home__data home__data-two">
                                    <span className="text-left text-cs">
-                                        Perseverant
+                                        Persevering
                                    </span>
                                    
                                    <span className="text-right text-cs">
@@ -70,7 +71,7 @@ const Home = () => {
                          </div>
                     
                          <div className="home__btns">
-                              <a href="" className="btn text-cs">
+                              <a download='' href={CV} className="btn text-cs">
                                    View Resume
                               </a>
                               <a href="" className="hero__link text-cs">

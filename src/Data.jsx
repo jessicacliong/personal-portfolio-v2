@@ -28,7 +28,7 @@ export const links = [
 
 // About Data
 
-const stories = [
+export const stories = [
   {
     id: 1,
     title: 'Who am I?',
@@ -39,7 +39,7 @@ const stories = [
     id: 2,
     title: 'What brought me here?',
     description: 
-      "I came from a science background and had a love for mathematics when I was in school. I was drawn into the logic of programming and decided to take a leap of courage to learn to code. I enjoy combing the worlds of logic and creative design to create engaging, functional and accessible websites and applications for users to enjoy. My aim is to deliver exceptional digital experience to end-users in functionality and design.",
+      "I came from a science background and loved mathematics when I was in school. I was drawn into the logic of programming and decided to take a leap of courage to learn to code. I enjoy combing the worlds of logic and creative design to create engaging, functional and accessible websites and applications for users to enjoy. My aim is to deliver exceptional digital experience to end-users in functionality and design.",
   },
   {
     id: 3,
@@ -53,11 +53,7 @@ const stories = [
     description: 
       "I am a foodie, a musician and a crypto enthusiast. These hobbies have allowed me to develop time management, resilience but at the same time have taught me that taking a break maintains my productivity. I love fashion, food photography and I'm also a spiritual enthusiast. This has taught me empathy, positivity, improving myself daily and have a keen eye for colours and design. I am also a team-oriented person who loves to collaborate with others with dedication and respect. I keep a beginner's mindset when it comes to reaching out for assistance while  learning and work diligently to support my team to achieve common goals.",
   }
-]
-
-export default stories;
-
-
+];
 
 // Projects Data
 export const projects = [
@@ -209,7 +205,7 @@ export const projects = [
        subtitle: 'Web Developement',
        date: 'Feb - Dec 2023',
        description:
-         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+         'Graduated in December 2023, qualifying me to transition into the IT industry. Coder Academy has equipped me with a solid foundation in the latest technologies and programming languages. This academic journey has been a challenging yet rewarding adventure, providing ample opportunities for learning and growth.',
        category: 'education',
       },
    
@@ -219,19 +215,9 @@ export const projects = [
        subtitle: 'Bachelor of Biotechnology and Cell Biology',
        date: '2010 - 2012',
        description:
-         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+         'I really enjoyed having a curious mindset and having a logical approach to identifying microorganisms or proteins in a given solution through experimentation and lab work. This mindset has set me up to have a logical flow of thought to achieve an end goal. Throughout my university years, I have actively engaged in numerous extra curricular activites including volunteering as a pianist and a singer, often playing in a group setting. This has allowed me to enhance team work and collaborative skills at a young age.',
        category: 'education',
       },
-   
-      /* {
-       id: 3,
-       title: '',
-       subtitle: 'High School',
-       date: '2010 - 2012',
-       description:
-         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-       category: 'education',
-      }, */
    
       {
        id: 4,
@@ -239,7 +225,7 @@ export const projects = [
        subtitle: 'Cogniss ',
        date: 'July 2024 - Sep 2024',
        description:
-         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+         "Remotely worked with Tech Lead to write characterisation tests and documentation of the company's backend codebase. Learnt and understood the framework of a legacy code and solved bugs encountered through setup of environment and writing tests.",
        category: 'experience',
       },
    
@@ -249,7 +235,7 @@ export const projects = [
        subtitle: 'CV Puji Mulyo, Indonesia',
        date: 'Jan 2020 - Present',
        description:
-         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        'Worked together with the owner and CTO to research and build an effective bookkeeping system suitable for this startup company. I trained staff to utilise the new system and documentation according to standard operational procedures. Allocate and monitor daily activities and progress of work from staff. Document AP & AR, invoice details, cross-checking invoices of the company with bank statements.',
        category: 'experience',
       },
    
@@ -259,7 +245,7 @@ export const projects = [
        subtitle: 'Right Management, Melbourne',
        date: 'Jul 2019 - Jan 2020',
        description:
-         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+         'My main roles were data entry of daily AP & AR information, invoice details into an accounting program, cross-checking invoices in detail with bank statements. Escalate any discrepancies and issues to the finance team and work together to timely meet daily tasks within tight deadlines.',
        category: 'experience',
       },
 
@@ -269,7 +255,7 @@ export const projects = [
         subtitle: 'PT Lembah Tidar Jaya, Indonesia',
         date: 'Jul 2015 - Sep 2018',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+          'I learnt to coordinate and manage multiple client and shoe manufacturer projects, focusing on leather specifications of each order under tight deadlines. I worked together with the technical director to research, develop, experiment making innovative leathers based on requests from various clients, designers, and shoe companies. I analysed leather samples provided by clients to replicate competitor products, material costs or modify performance according to individual requests.',
         category: 'experience',
        },
 
