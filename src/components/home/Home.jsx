@@ -20,7 +20,7 @@ const Home = () => {
                          </h1>
 
                          <p className='home__job'>
-                              <span className='text-cs'>I Am A</span> <b>Junior Web Developer</b>
+                              <span className='text-cs'>I Am A</span> <b>Web Developer</b>
                          </p>
 
                          <div className="home__img-wrapper">

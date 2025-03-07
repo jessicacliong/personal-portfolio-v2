@@ -33,7 +33,7 @@ const stories = [
     id: 1,
     title: 'Who am I?',
     description: 
-      "My name is Jessica Liong - embarking on a journey to be a full-stack developer, based in Melbourne, Australia. My experiences in previous work environments have equipped me to be adaptable in any circumstances. I have recently been fascinated how technology has evolved over the years to help us ease daily tasks while incorporating attractive designs. I wish to be a part of this growing industry by contributing to creating programs that solve real-life problems. I have just recently graduate my diploma in IT from Coder Academy and I strive to expand my tech knowledge by sharpening my coding skills. I always put in my best efforts into my learning and work and persist in learning new things to implement into my projects and tasks.",
+      "My name is Jessica Liong - embarking on a journey to be a full-stack developer based in Melbourne, Australia. My experiences in previous work environments have equipped me to be adaptable in any circumstances. I have recently been fascinated how technology has evolved over the years to help us ease daily tasks while incorporating attractive designs. I wish to be a part of this growing industry by contributing to creating programs that solve real-life problems. I have just recently graduate my diploma in IT from Coder Academy and I strive to expand my tech knowledge by sharpening my coding skills. I always put in my best efforts into my learning and work and persist in learning new things to implement into my projects and tasks.",
   },
   {
     id: 2,
@@ -223,7 +223,7 @@ export const projects = [
    
       {
        id: 4,
-       title: 'Backend Intern',
+       title: 'Backend Engineer',
        subtitle: 'Cogniss ',
        date: 'July 2024 - Sep 2024',
        description:
