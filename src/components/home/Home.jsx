@@ -74,8 +74,8 @@ const Home = () => {
                               <a download='' href={CV} className="btn text-cs">
                                    View Resume
                               </a>
-                              <a href="" className="hero__link text-cs">
-                                   My Skills
+                              <a href="#projects" className="hero__link text-cs">
+                                   My Projects
                               </a>
                          </div>
                     </div>
