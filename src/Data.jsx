@@ -28,7 +28,7 @@ export const links = [
 
 // About Data
 
-export const stories = [
+const stories = [
   {
     id: 1,
     title: 'Who am I?',
@@ -53,7 +53,9 @@ export const stories = [
     description: 
       "I am a foodie, a musician and a crypto enthusiast. These hobbies have allowed me to develop time management, resilience but at the same time have taught me that taking a break maintains my productivity. I love fashion, food photography and I'm also a spiritual enthusiast. This has taught me empathy, positivity, improving myself daily and have a keen eye for colours and design. I am also a team-oriented person who loves to collaborate with others with dedication and respect. I keep a beginner's mindset when it comes to reaching out for assistance while  learning and work diligently to support my team to achieve common goals.",
   }
-];
+]
+
+export default stories;
 
 // Projects Data
 export const projects = [
