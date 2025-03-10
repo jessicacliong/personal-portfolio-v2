@@ -23,7 +23,7 @@ const Contact = () => {
           e.preventDefault();
           try {
                const response = await axios.post(
-               'https://sheet.best/api/sheets/943d68e2-1fbb-4d77-be59-8ef0b16c8b38', form)
+               'https://api.sheetbest.com/sheets/4a125d7c-1f7c-4763-9701-c8b84545c949', form)
                console.log(response);
                // clearing form fields
                setForm({name:'', email: '', subject: '', message: ''});
